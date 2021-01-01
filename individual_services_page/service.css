@@ -57,4 +57,13 @@ form
         width: 90%;
         margin: 5rem auto 0 auto !important;
     }
+    #form_card label
+    {
+        font-size: 2.5rem;
+    }
+    #form_card input, #form_card select
+    {
+        height: 5rem;
+        width: 30rem;
+    }
 }

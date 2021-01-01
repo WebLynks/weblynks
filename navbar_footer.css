@@ -124,7 +124,7 @@
 .header_block a:hover
 {
     cursor: pointer;
-    color: inherit;l
+    color: inherit;
 }
 .navbar_custom li a
 {
@@ -149,15 +149,16 @@
 }
 .footer_custom
 {
-    background: linear-gradient(to right, #6230f2 10%, #a103fc 60%);
+    background: linear-gradient(to top, #243B55, #141E30);
+    /*background: linear-gradient(#6230f2 10%, #a103fc 60%);*/
     background-size: cover !important;
-    height: 30rem !important;
+    height: 32rem !important;
     font-family: PBold;
 }
 .footer_custom h3
 {
     font-size: 3rem;
-    color: rgb(255, 255, 255, .9);
+    color: rgb(255, 255, 255, .8);
 }
 #quick_links
 {
@@ -195,18 +196,14 @@
 {
     display: inline-block;
     font-size: 1.5rem;
-    padding-left: 2rem;
+    padding: 0 1rem;
     color: white;
-}
-#socials
-{
-    text-align: center;
 }
 #socials img
 {
     width: 8rem;
     display: inline-block;
-    padding-right: 4rem; 
+    padding: 0 2rem; 
 }
 #socials a:hover
 {
@@ -249,10 +246,13 @@
     {
         padding: .5rem 0;
     }
+    .footer_custom h3
+    {
+        font-size: 2.5rem;
+    }
     #socials
     {
         padding-top: 5rem;
-        text-align: center;
     }
     #socials a
     {
