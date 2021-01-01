@@ -1,0 +1,290 @@
+h1
+{
+    font-family: PBold;
+}
+.blocks
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.block_heading
+{
+    font-family: PBold;
+    font-size: 6rem;
+    color: RGB(60, 75, 105);
+    margin-top: 2rem;
+}
+#know_more
+{
+    width: 15rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    background-color: #f3f4f6;
+    border: none;
+    box-shadow: 0px 4px 5px rgb(0,0,0,.6);
+    font-family: thinfont;
+    font-size: 1.8rem;
+    color: RGB(60, 75, 105);
+    letter-spacing: .1rem;
+    float: right;
+}
+#what_we_do img
+{
+    width: 40rem;
+    margin: 5rem 4rem;
+    border-radius: 5%;
+    box-shadow: 0px 4px 5px rgb(0,0,0,.6);
+}
+#what_we_do h1
+{
+    padding: 5rem 0;
+    font-size: 5rem;
+    color: rgb(255, 255, 255, .85);
+}
+#what_we_do p
+{
+    font-size: 2rem;
+    font-family: thinfont;
+    color: rgb(255, 255, 255, .85);
+    padding-bottom: 2rem;
+}
+#services ul
+{
+    list-style: none;
+    margin: 0;
+    margin: 2rem 3rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 90%;
+    display: inline-block;
+    padding: 2rem 1rem 1rem;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+#services ul li
+{
+    display: inline-block;
+}
+#services ul div
+{
+    height: 25rem;
+    width: 20rem;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    margin: 0 3rem;
+    border-radius: 5%;
+    overflow-x: auto;
+    text-align: center;
+    white-space: initial;
+    position: relative;
+}
+#services button
+{
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    transform: translate(50%, 10%);
+    width: 10rem;
+    height: 3rem;
+}
+#services h3
+{
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    font-family: PBold;
+    color: RGB(60, 75, 105);
+}
+#services p
+{ 
+    font-family: thinfont;
+    font-size: 2rem;
+}
+
+.scroll_btn
+{
+    width: 5rem;
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    transform: translate(0%, -50%);
+}
+.scroll_btn:hover
+{
+    cursor: pointer;
+}
+#why_choose_us h2
+{
+    font-size: 8rem;
+    font-family: PBold;
+    color: rgb(60,75,105);
+}
+#why_choose_us li
+{
+    display: block;
+    height: 20rem;
+}
+#why_choose_us ul li div
+{
+    display: inline-block;
+    padding-left: 2rem;
+    height: 25rem;
+    float:left;
+}
+#why_choose_us ul li div:nth-child(1)
+{
+    width: 25rem;
+}
+#why_choose_us h5
+{ 
+    font-size: 4rem;
+    color: rgb(60,75,105);
+    font-family: PBold;
+    margin: 0;
+}
+#why_choose_us2
+{
+    height: 70rem;
+    position: relative;
+}
+#why_choose_us2 div:nth-child(1)
+{
+    position: absolute;
+    top: 25%;
+    transform: translateY(-25%);
+}
+#why_choose_us2 p
+{
+    font-family: thinfont;
+    font-size: 2rem;
+}
+#why_choose_us2 div:nth-child(2)
+{
+    position: absolute;
+    top: 75%;
+    transform: translateY(-75%);
+}
+form label
+{
+    margin: 1rem 0;
+}   
+#pricing ul
+{
+    list-style: none;
+    padding: 3rem 0rem;
+    margin: 1rem 5rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+#pricing ul div
+{
+    height: 50rem;
+    width: 30rem;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+#pricing ul div h3
+{
+    padding-top: 2rem;
+    font-size: 4rem; 
+    font-family: PBold; 
+    color: rgb(60,75,105);
+    margin: 0;
+}
+#pricing li
+{
+    display: inline-block;
+    margin: 0 2rem;
+}
+#pricing ul div p
+{
+    font-family: thinfont; 
+    font-size: 2rem;
+    padding: 0; 
+    margin: 0;
+}
+#testimonials ul
+{
+    margin-top: 5rem;
+    padding: 0;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+#testimonials li
+{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+#testimonials li img
+{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#testimonials h3
+{
+    font-family: PBold;
+    color: rgb(60,75, 105);
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+#testimonials p
+{
+    font-family: thinfont;
+    font-size: 2rem;
+    font-style: italic;
+    white-space: initial;
+}
+@media only screen and (max-width: 600px)
+{
+    #services ul
+    {
+        overflow-x: hidden;
+        white-space: normal;
+        margin: 2rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    #services ul div
+    {
+        margin: 1rem 2rem;    
+    }
+    #why_choose_us ul li div
+    {
+        height: 20rem;
+        padding: 0;
+    }
+    #why_choose_us ul
+    {
+        padding: 0;
+    }
+    #why_choose_us h2
+    {
+        font-size: 6rem;
+    }
+    #why_choose_us h5
+    {
+        font-size: 3rem;
+    }
+    #why_choose_us ul li div:nth-child(1)
+    {
+        width: 17rem;
+    }
+    #why_choose_us2
+    {
+        height: 40rem;
+    }
+    #why_choose_us2 div
+    {
+        position: relative !important;
+        top: 0% !important;
+        transform: none !important;
+        margin: 2rem 0 5rem 0;
+    }
+    #pricing ul
+    {
+        margin: 3rem 0 0 0;
+    }
+}
